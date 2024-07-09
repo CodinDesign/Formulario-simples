@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: radial-gradient(circle, dimgray, black);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    z-index: 1;
+    font-size: 50px;
+    display: flex;
+    bottom: 88vh;
+    position: absolute;
+    text-align: center;
+    color: gold;
+    font-family: "Exo 2", sans-serif;
+    border: 1px solid gold;
+    border-radius: 0 15px 0 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px gold;
+}
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%; /* Ajustado para ocupar 80% da largura do container */
+    max-width: 500px; /* Largura máxima para manter a consistência */
+    margin: auto; /* Centraliza o formulário na tela */
+}
+
+.container {
+    position: relative;
+    background: radial-gradient(circle, dimgray, black);
+    box-shadow: 0 0 20px black;
+    width: 60%;
+    height: 70%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px 45px 5px 45px;
+}
+
+#Lnome,
+#Lemail,
+#Lsenha {
+    color: gold;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    font-family: "Exo 2", sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 15px; /* Ajustado para 15px */
+    width: 100%; /* Ocupa 100% da largura do container */
+    margin-bottom: 15px; /* Aumentado o espaçamento entre os campos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "Exo 2", sans-serif;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    box-shadow: 0 0 20px gold;
+    border: 2px solid gold;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#checkbox {
+    display: flex;
+    position: relative;
+    right: 38.5vh;
+    bottom: 2.8vh;
+    background-color: gold;
+}
+
+#lembrar {
+    display: flex;
+    position: relative;
+    left: 3vh;
+    bottom: 5.5vh;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    color: gold;
+}
+
+button {
+    position: relative;
+    bottom: 3vh;
+    background-color: transparent;
+    color: black;
+    border: 2px solid gold;
+    box-shadow: 0 0 20px black;
+    padding: 15px 30px; /* Ajustado para 15px de padding vertical e 30px de padding horizontal */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Ocupa 100% da largura do container */
+    max-width: 300px; /* Largura máxima para manter a consistência */
+    margin: auto; /* Centraliza o botão na tela */
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    font-family: "Exo 2", sans-serif;
+}
+
+button:hover {
+    background-color: gold;
+    border: 1px solid gold;
+    box-shadow: 0 0 20px gold;
+    padding: 15px 30px; /* Ajustado para 15px de padding vertical e 30px de padding horizontal */
+}

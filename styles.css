@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+/* Reset de estilos básico para remover margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+}
+
+/* Estilos para o cabeçalho */
+.top-header {
+    background-color: black; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gold;
+    padding: 10px 20px;
+}
+
+
+.top-header .logo h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2em;
+    border: 1px solid gold;
+    border-radius: 5px 10px 5px 10px;
+    padding: 0 5px 0 10px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+
+}
+
+.nav-links ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links ul li {
+    margin-left: 20px; /* Espaçamento entre os itens do menu */
+}
+
+#login a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.2s, border 0.2s, padding 0.2s, box-shadow 0.2s;
+    font-family: "Exo 2", sans-serif;
+}
+
+#login a:hover {
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 0 10px 0 10px;
+    padding: 2px 5px 3px 5px;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+    font-family: "Exo 2", sans-serif;
+}
+
+#cadastro a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transition: color 0.2s, border 0.2s, padding 0.2s, box-shadow 0.2s;
+    font-family: "Exo 2", sans-serif;
+}
+
+#cadastro a:hover {
+    color: gold;
+    border: 2px solid gold;
+    border-radius: 0 10px 0 10px;
+    padding: 2px 5px 3px 5px;
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+    font-family: "Exo 2", sans-serif;
+}
+
+h2 {
+    font-family: "Bona Nova SC", serif;
+    position: relative;
+    text-align: center;
+    top: 50vh;
+    font-size: 4em;
+    font-weight: bold;
+    color: darkgray;
+    text-shadow: 0 0 10px black;
+}

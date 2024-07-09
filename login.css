@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: radial-gradient(circle, dimgray, black);
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    z-index: 1;
+    font-size: 50px;
+    display: flex;
+    bottom: 88vh;
+    position: absolute;
+    text-align: center;
+    color: gold;
+    font-family: "Exo 2", sans-serif;
+    border: 1px solid gold;
+    border-radius: 0 15px 0 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    box-shadow: 0 0 10px gold;
+}
+
+form {
+    color: white;
+}
+
+.container {
+    position: relative;
+    background: radial-gradient(circle, dimgray, black);
+    box-shadow: 0 0 20px black;
+    width: 60%;
+    height: 70%;
+    padding: 20px;
+    text-align: center; /* Centraliza texto horizontalmente */
+    display: flex; /* Usa flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border: 2px solid black;
+    border-radius: 5px 45px 5px 45px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#Lemail {
+    color: gold;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    font-family: "Exo 2", sans-serif;
+}
+
+#Lsenha {
+    color: gold;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    font-family: "Exo 2", sans-serif;
+
+}
+
+#email, #password {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    position: relative;
+    color: black;
+    font-family: "Exo 2", sans-serif;
+    display: flex;
+}
+
+#checkbox {
+    display: flex; /* Exibe o checkbox e o label na mesma linha */
+    position: relative; 
+    right: 38.5vh;
+    bottom: 2.8vh;
+    color:;
+}
+
+#lembrar {
+    display: flex; /* Garante que o label e o checkbox fiquem na mesma linha */
+    position: relative;
+    left: 3vh;
+    bottom: 5.5vh;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
+    color: gold;
+}
+  
+input[type="email"],
+input[type="password"] {
+    padding: 20px;
+    width: 80vh;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    box-shadow: 0 0 20px gold;
+    border: 2px solid gold;
+    outline: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: transparent;
+    color: black;
+    border: 2px solid gold;
+    box-shadow: 0 0 20px black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50vh;
+    position: relative;
+    left: 18%;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    font-family: "Exo 2", sans-serif;
+}
+
+button:hover {
+    background-color: gold;
+    border: 1px solid gold;
+    box-shadow: 0 0 20px gold;
+    padding: 15px;
+} 
+
